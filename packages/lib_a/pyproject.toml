@@ -1,0 +1,12 @@
+[project]
+name = "lib-a"
+version = "0.0.0"
+description = ""
+requires-python = ">=3.7"
+dependencies = [
+    "lib-b",
+]
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"

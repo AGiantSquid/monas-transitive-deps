@@ -1,0 +1,12 @@
+[project]
+name = "lib-b"
+version = "0.0.0"
+description = ""
+requires-python = ">=3.7"
+dependencies = [
+    'lib-c',
+]
+
+[build-system]
+requires = ["flit_core>=3.2,<4"]
+build-backend = "flit_core.buildapi"
